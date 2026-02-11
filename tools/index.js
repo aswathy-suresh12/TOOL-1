@@ -2,13 +2,11 @@ const chalk = require("chalk");
 const inquirer = require("inquirer");
 const _ = require("lodash");
 const fs = require("fs");
-
 class instagram {
     constructor(username, password) {
         this.username = username;
         this.password = password;
     }
-    // leave empty for now; the main code uses cookie login
 }
 
 const print = (msg, type, line) => {
